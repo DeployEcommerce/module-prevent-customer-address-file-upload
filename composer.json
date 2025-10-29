@@ -1,0 +1,45 @@
+{
+  "name": "deployecommerce/module-prevent-customer-address-file-upload",
+  "version": "0.0.1",
+  "description": "A Magento2 extension that prevents file uploads to the /customer/address_file/upload endpoint.",
+  "keywords": [
+    "magento2",
+    "sessionreaper",
+    "adobe commerce",
+    "magento",
+    "file",
+    "upload",
+    "CVE-2025-54236"
+  ],
+  "authors": [
+    {
+      "name": "Deploy",
+      "email": "hello@deploy.co.uk",
+      "homepage": "https://www.deploy.co.uk",
+      "role": "Agency"
+    },
+    {
+      "name": "Scott Robinson",
+      "email": "scott@dor.ky",
+      "homepage": "https://github.com/ssx",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/DeployEcommerce/module-prevent-customer-address-file-upload/issues"
+  },
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-customer": "103.0.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "DeployEcommerce\\PreventCustomerAddressFileUpload\\": ""
+    }
+  }
+}
