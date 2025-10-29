@@ -1,6 +1,6 @@
 {
   "name": "deployecommerce/module-prevent-customer-address-file-upload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Magento2 extension that prevents file uploads to the /customer/address_file/upload endpoint.",
   "keywords": [
     "magento2",
