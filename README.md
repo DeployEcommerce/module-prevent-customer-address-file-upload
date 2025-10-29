@@ -19,3 +19,9 @@ bin/magento mo:e DeployEcommerce_PreventCustomerAddressFileUpload
 
 ### License
 This module is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
+
+### Thanks
+Thanks go to Daniel Sloof at [Sansec](https://sansec.io) and the #security 
+channel in the Magento Open Source Slack as we've had many discussions on the 
+issue over the past few weeks.
