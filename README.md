@@ -24,4 +24,5 @@ This module is licensed under the MIT License. See the [LICENSE](LICENSE.md) fil
 ### Thanks
 Thanks go to Daniel Sloof at [Sansec](https://sansec.io) and the #security 
 channel in the Magento Open Source Slack as we've had many discussions on the 
-issue over the past few weeks.
+issue over the past few weeks. Much thanks go to Blaklis too for his work on
+reporting the issue and follow up conversations around the exploit.
